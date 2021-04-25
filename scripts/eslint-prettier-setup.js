@@ -111,7 +111,7 @@ module.exports = {
       }),
    },
    handler: async function (args) {
-      console.log(args)
+      // console.log(args)
       await createFile(".eslintrc.js", this.templates.eslint, args)
       await createFile(".prettierrc", this.templates.prettier, args)
       await createFile(".eslintignore", "node_modules/")
