@@ -1,0 +1,37 @@
+{
+    "name": "pentium",
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "repository": "git@github.com:ubermanio/pentium.git",
+    "author": "Loïc Nestler <loic.nestler@gmail.com>",
+    "license": "MIT",
+    "bin": "dist/bin/pentium.js",
+    "scripts": {
+        "build": "tsc",
+        "lint": "eslint ."
+    },
+    "devDependencies": {
+        "@types/inquirer": "^7.3.1",
+        "@types/minimist": "^1.2.1",
+        "@types/node": "^14.14.41",
+        "@types/shelljs": "^0.8.8",
+        "typescript": "^4.2.4"
+    },
+    "dependencies": {
+        "@typescript-eslint/eslint-plugin": "^4.22.0",
+        "@typescript-eslint/parser": "^4.22.0",
+        "chalk": "^4.1.1",
+        "cli-highlight": "^2.1.11",
+        "enquirer": "^2.3.6",
+        "eslint": "^7.24.0",
+        "eslint-config-prettier": "^8.2.0",
+        "fast-glob": "^3.2.5",
+        "fuse.js": "^6.4.6",
+        "inquirer": "^8.0.0",
+        "inquirer-autocomplete-prompt": "^1.3.0",
+        "minimist": "^1.2.5",
+        "prettier": "^2.2.1",
+        "shelljs": "^0.8.4",
+        "slugify": "^1.5.0"
+    }
+}
