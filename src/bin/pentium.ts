@@ -50,7 +50,7 @@ const main = async () => {
 
    const args: Record<string, any> = {}
 
-   for (const question of script.questions) {
+   for (const question of script.questions || []) {
       let resolver = (obj: Record<string, unknown>) => {
          console.log(obj)
          return obj[Object.keys(obj)[0]]
